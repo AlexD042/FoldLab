@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="FoldLab/FoldLab.vcxproj" Id="a1a6c61a-5ea7-4aab-88b4-e4bce3ef3068" />
+</Solution>

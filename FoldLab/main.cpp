@@ -40,12 +40,17 @@ int subtract(int a, int b) {
     return a - b;
 }
 
+int max(int a, int b) {
+    return (a > b) ? a : b;
+}
+
 void test_fold() {
     std::vector<int> numbers = { 1, 2, 3, 4 };
 
     assert(fold(add, numbers) == 10);
     assert(fold(multiply, numbers) == 24);
     assert(fold(subtract, numbers) == -2);
+    assert(fold(max, numbers) == 4);
 
     std::cout << "test_fold PASSED\n";
 }
